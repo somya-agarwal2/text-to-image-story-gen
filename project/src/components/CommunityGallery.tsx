@@ -36,25 +36,25 @@ export const CommunityGallery: React.FC = () => {
     id: "s1",
     title: 'Scene 1',
     content: 'The young wizard cautiously steps into a vast, mysterious library. Towering shelves stretch endlessly toward the ceiling, filled with glowing, ancient tomes. Dust motes dance in the air as a faint, magical hum reverberates softly, hinting at secrets waiting to be discovered.',
-    imageUrl: '/images/library3.png'
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260269/library3_me9i1a.png'
   },
   {
     id: 's2',
     title: 'Scene 2',
     content: 'As he ventures further, a large, leather-bound book suddenly lifts into the air, its pages fluttering. The book hovers before him and slowly opens, revealing a shimmering spell that seems to glow with a life of its own. The wizard’s eyes widen in awe at the magical spectacle.',
-    imageUrl: '/images/library2.png'
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260268/library2_ps6txk.png'
   },
   {
     id: 's3',
     title: 'Scene 3',
     content: 'From the shadows between the shelves, tiny magical creatures peek curiously at the intruder. Their eyes glimmer with intelligence, and they move with graceful, almost ethereal motions. The wizard feels a mix of wonder and trepidation as the creatures silently observe his every step.',
-    imageUrl: '/images/library1.png'
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260269/library1_hraaog.png'
   },
   {
     id: 's4',
     title: 'Scene 4',
     content: 'Summoning his courage, the wizard raises his wand and casts his first spell. Brilliant light bursts forth, illuminating every corner of the library. Books float gently around him, and the air shimmers with magic. For the first time, he feels the exhilarating thrill of wielding his newfound powers.',
-    imageUrl: '/images/library4.jpg'
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260269/library4_yiojfo.jpg'
   }
 ]
 
@@ -76,25 +76,25 @@ export const CommunityGallery: React.FC = () => {
     id: 's5',
     title: 'Scene 1',
     content: 'The classroom door creaked open as a shiny, silver robot rolled inside. Its lights blinked with excitement, though its gears whirred nervously. The human students stared in surprise, whispering to each other as the robot waved hello, eager but unsure of how they would react.',
-    imageUrl: '/images/robot1.png',
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260269/robot1_trj5yx.png',
   },
   {
     id: 's6',
     title: 'Scene 2',
     content: 'The teacher smiled warmly and said, “Class, meet our new student!” She placed a gentle hand on the robot’s shoulder. The children leaned forward in their seats, eyes wide with curiosity. Some looked amazed, others giggled softly, but everyone wondered what it would be like to study with a robot friend.',
-    imageUrl: '/images/robot2.png',
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260274/robot2_gsew2d.png',
   },
   {
     id: 's7',
     title: 'Scene 3',
     content: 'During recess, the students invited the robot to join a game of tag. The robot eagerly agreed but chased the wrong way, thinking the swings and slide were part of the game. The children laughed, not unkindly, as the robot tilted its head in confusion, trying to learn the rules. Even though it made mistakes, its determination made the classmates smile.',
-    imageUrl: '/images/robot3.png',
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260271/robot3_eeqpnr.png',
   },
   {
     id: 's8',
     title: 'Scene 4',
     content: 'As the sun dipped low and the final bell rang, the robot sat with a group of new friends, telling jokes in its beeping voice. The children laughed along, offering high-fives and pats on its shiny arms. The robot’s nervous lights now glowed a calm blue — it had discovered that friendship could be programmed through kindness and laughter.',
-    imageUrl: '/images/robot4.jpg',
+    imageUrl: 'https://res.cloudinary.com/dvyf4wvd2/image/upload/v1757260271/robot4_kxveuz.jpg',
   },
 ],
 
