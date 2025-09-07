@@ -5,8 +5,8 @@ A comprehensive, production-ready application for creating AI-powered illustrate
 ## 🌟 Features
 
 ### Core Functionality
-- **AI-Powered Story Generation**: Uses real AI APIs (GPT-4, Claude) for rich narrative creation
-- **Image Generation**: Integrates with DALL-E 3, Stable Diffusion for scene illustrations
+- **AI-Powered Story Generation**: Uses real AI APIs (Mistral) for rich narrative creation
+- **Image Generation**: Integrates with Stability AI
 - **Interactive Storybook**: Beautiful reading experience with page navigation
 - **Character Consistency**: Maintains character profiles across scenes
 - **Scene Branching**: Choose your own adventure style storylines
@@ -46,14 +46,10 @@ A comprehensive, production-ready application for creating AI-powered illustrate
 - RESTful API structure
 - Secure API key management
 - Image storage and optimization
-- User authentication system
+
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-- API keys for AI services
 
 ### Installation
 1. Clone the repository
@@ -63,7 +59,7 @@ A comprehensive, production-ready application for creating AI-powered illustrate
 
 ### Environment Variables
 ```
-VITE_OPENAI_API_KEY=your_openai_key
+VITE_OPENROUTER_API_KEY=your_openai_key
 VITE_STABILITY_API_KEY=your_stability_key
 VITE_API_BASE_URL=your_backend_url
 ```
