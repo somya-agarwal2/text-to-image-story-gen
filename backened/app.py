@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from story_service import generate_story, generate_image, generate_narration
+from backened.story_service import generate_story, generate_image, generate_narration
 import os
 import requests
 app = Flask(__name__, static_folder="static")
