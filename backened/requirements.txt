@@ -1,5 +1,0 @@
-Flask==2.3.2                     # The Flask web framework
-Flask-Cors==3.0.10              # To handle CORS for your frontend/backend communication
-python-dotenv==1.0.0            # For managing environment variables (.env)
-requests==2.31.0                # To call external APIs (e.g., OpenAI, image generation APIs)
-gunicorn==20.1.0                          
