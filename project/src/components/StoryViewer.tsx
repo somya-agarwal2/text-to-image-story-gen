@@ -51,7 +51,7 @@ export const StoryViewer: React.FC<StoryViewerProps> = ({ story, setStory }) => 
 
   /** ------------------ API CALLS ------------------ **/
   const handleRegenerateScene = async (sceneId: string) => {
-    const res = await fetch('http://localhost:5000/api/regenerate-scene', {
+    const res = await fetch('https://text-to-image-story-backened.onrender.com/api/regenerate-scene', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -90,7 +90,7 @@ export const StoryViewer: React.FC<StoryViewerProps> = ({ story, setStory }) => 
   };
 
   const handleRegenerateImage = async (sceneId: string) => {
-    const res = await fetch('http://localhost:5000/api/regenerate-image', {
+    const res = await fetch('https://text-to-image-story-backened.onrender.com/api/regenerate-image', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
